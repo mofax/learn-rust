@@ -1,13 +1,13 @@
 
 fn hello_world() {
-    println!("Hello World")
+    println!("Hello World");
 }
 
 fn hello(world: &str) {
-    println!("Hello {}", world)
+    println!("Hello {}", world);
 }
 
 fn main() {
-    hello("earth")
-    hello_world()
+    hello("earth");
+    hello_world();
 }
